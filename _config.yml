@@ -24,7 +24,7 @@ title: Frank's Blog
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Resume: "resume"
+  Résumé: "resume"
   Resources:
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     - Learn markdown: "http://www.markdowntutorial.com/"
