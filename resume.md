@@ -4,4 +4,4 @@ title: Résumé
 subtitle: Updated as of June 2019
 ---
 
-<img src="./LeeFrankResume.png" width="200" height="200" />
+![alt text](./LeeFrankResume.png =500)
