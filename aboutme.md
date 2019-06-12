@@ -8,7 +8,7 @@ My name is Frank Lee. I am currently:
 
 - a software engineer
 - a Physics and Computer Science undergraduate at UC Santa Barbara
-- Researching embedding problems in adiabatic annealers for Quantum Computing
+- researching embedding problems in adiabatic annealers for Quantum Computing
 
 I *was* also:
 
@@ -16,6 +16,12 @@ I *was* also:
 - an Apple employee
 - a C++ enthusiast (keyword *was*)
 
-### my history
+### My background
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+I completed highschool in Australia and now I live in California. A couple of other things I love working on and learning about:
+
+- General Python & C++ development
+- Deep learning for handwriting recognition, image classification and posture detection
+- High Energy Physics
+- PCB design and integration
+- Simple iOS development
