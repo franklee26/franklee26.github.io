@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About me
+title: About Me
 subtitle: Software Engineer @ Procore Technologies
 ---
 
@@ -12,7 +12,7 @@ My name is Frank Lee. I am currently:
 
 I *was* also:
 
-- a optical engineer @ Continental working with LiDAR technologies 
+- an Optical engineer @ Continental working with LiDAR technologies 
 - an Apple employee
 - a C++ enthusiast (keyword *was*)
 
