@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Resume
+title: Résumé
 subtitle: Updated as of June 2019
 ---
 
-<object data="{{ franklee26.github.io/LeeFrankResume.pdf }}" width="1000" height="1000" type='application/pdf'/>
+<object data="{{ franklee26.github.io/LeeFrankResume.pdf }}" width="800em" height="800em" type='application/pdf'/>
