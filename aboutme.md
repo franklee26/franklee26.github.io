@@ -6,15 +6,15 @@ subtitle: Software Engineer @ Procore Technologies
 
 My name is Frank Lee. I am currently:
 
-- A software engineer
-- A Physics and Computer Science undergraduate at UC Santa Barbara
+- a software engineer
+- a Physics and Computer Science undergraduate at UC Santa Barbara
 - Researching embedding problems in adiabatic annealers for Quantum Computing
 
 I *was* also:
 
-- A optical engineer @ Continental working with LiDAR technologies 
-- An Apple employee
-- A C++ enthusiast (keyword *was*)
+- a optical engineer @ Continental working with LiDAR technologies 
+- an Apple employee
+- a C++ enthusiast (keyword *was*)
 
 ### my history
 
