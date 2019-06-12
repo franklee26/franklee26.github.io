@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Me
-subtitle: Software Engineer @ Procore Technologies
+subtitle: Software Engineer Intern @ Procore Technologies
 ---
 
 My name is Frank Lee. I am currently:
@@ -12,16 +12,17 @@ My name is Frank Lee. I am currently:
 
 I *was* also:
 
-- an Optical engineer @ Continental working with LiDAR technologies 
+- an Optical Engineer intern @ Continental working with LiDAR technologies 
 - an Apple employee
 - a C++ enthusiast (keyword *was*)
 
 ### My background
 
-I completed highschool in Australia and now I live in California. A couple of other things I love working on and learning about:
+I completed highschool in Australia and 我会说一点汉语.  A couple of other things I love working on and learning about:
 
 - General Python & C++ development
 - Deep learning for handwriting recognition, image classification and posture detection
+- Machine learning optimisation problems
 - High Energy Physics
 - PCB design and integration
 - Simple iOS development
