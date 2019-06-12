@@ -4,4 +4,4 @@ title: Résumé
 subtitle: Updated as of June 2019
 ---
 
-<object data="franklee26.github.io/LeeFrankResume.pdf" width="800em" height="800em" type='application/pdf'/>
+<object data="./LeeFrankResume.pdf" width="800em" height="800em" type='application/pdf'/>
