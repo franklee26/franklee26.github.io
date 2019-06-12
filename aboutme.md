@@ -18,11 +18,11 @@ I *was* also:
 
 ### My background
 
-I completed highschool in Australia and 我会说一点汉语.  A couple of other things I love working on and learning about:
+I completed highschool in Australia and I am a somewhat intermediate Mandarin speaker. A couple of other things I love working on and learning about:
 
 - General Python & C++ development
 - Deep learning for handwriting recognition, image classification and posture detection
-- Machine learning optimisation problems
+- ML optimisation problems
 - High Energy Physics
 - PCB design and integration
 - Simple iOS development
