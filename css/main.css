@@ -106,7 +106,7 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background-color: #e5e5e5; /* used to be {{site.navbar-col}} */
+  background-color: #ededed; /* used to be {{site.navbar-col}} */
   border-bottom: 1.1px solid #EAEAEA;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   {% if site.navbar-img %}
