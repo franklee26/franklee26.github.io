@@ -32,4 +32,8 @@ e.plotChimeraFromBipartite(left= newL, right = newR, showMappings = False, L = L
 ```
 
 Here's what the problem graph looks like:
-![alt text](~/franklee26.github.io/img/problem.png)
+
+![alt text](img/problem.png)
+
+and the virtual hardware:
+
