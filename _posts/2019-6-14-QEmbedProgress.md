@@ -37,3 +37,8 @@ Here's what the problem graph looks like:
 
 and the virtual hardware:
 
+![Virtual hardware](https://i.imgur.com/QOCvJ87.png)
+
+and finally the embedded Chimera graph:
+
+![Chimera graph](https://i.imgur.com/eS82YGp.png)
