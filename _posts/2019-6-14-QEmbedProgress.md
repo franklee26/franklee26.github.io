@@ -8,7 +8,7 @@ I've recently implemented a complete embedding implementation for QEmbed. More s
 
 The code is rather messy and I need to work on the syntax and mechanics of it all. However, what is doing is simple and compartmentalised. Take a look:
 
-```python
+```python3
 # import QEmbed
 import QEmbed.Embed as qe 
 
