@@ -25,7 +25,7 @@ e.plotGraph()
 L,R,OCT = e.greedyBipartiteSets(getOCT = True)
 
 # get the virtual hardware embedding as well as the Chimera topology dimensions 
-newL, newR, LL, MM, NN = e.OCTEmbed(L = L, R = R, S = OCT, getChimeraDimensions = True)
+newL, newR, LL, MM, NN = e.OCTEmbed(left = L, right = R, oct = OCT, getChimeraDimensions = True)
 
 # plot the virtual hardware
 e.plotBipartite(left = newL, right = newR)
