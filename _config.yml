@@ -25,6 +25,7 @@ description: Frank's Homepage
 navbar-links:
   About Me: "aboutme"
   Résumé: "resume"
+  Tags: http://frankleepage.com/tags/
   Extras:
     - QEmbed Doc: "http://frankleepage.com/QEmbedDoc/"
 
