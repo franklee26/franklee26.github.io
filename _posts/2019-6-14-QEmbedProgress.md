@@ -2,6 +2,9 @@
 layout: post
 title: QEmbed Progress Report
 subtitle: First success on complete embedding!
+gh-repo: franklee26/QEmbed
+gh-badge: [star, fork, follow]
+tags: [QEmbed, Quantum Computing]
 ---
 
 I've recently implemented a complete embedding implementation for QEmbed. More specifically, you can now get a full Chimera embedding provided that you input a problem graph. 
