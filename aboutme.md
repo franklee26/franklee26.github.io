@@ -2,6 +2,7 @@
 layout: page
 title: About Me
 subtitle: Software Engineer Intern @ Procore Technologies
+bigimg: /img/myback.jpg
 ---
 
 My name is Frank Lee. I am currently:
