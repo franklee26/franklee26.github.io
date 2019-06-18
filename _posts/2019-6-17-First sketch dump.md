@@ -7,15 +7,9 @@ tags: [Sketches]
 
 I've recently downloaded Procreate and it's incredibly fun to learn! With school just finishing, what better way to kill some time by sketching random things? 
 
-Mountains:
-
 ![Mountains](/img/mountains.jpg)
 
-Islands:
-
-![Islands](/img/myback.jpg)
-
-Breadboard:
+![Islands](/img/About_Me_Background_.jpg)
 
 ![Breadboard](/img/mybreadboard.jpg)
 
