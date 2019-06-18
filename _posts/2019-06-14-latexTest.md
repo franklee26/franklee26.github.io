@@ -10,5 +10,5 @@ $$\displaystyle\int_{-\infty}^{\infty}dx\ e^{-x^2} = \sqrt{\pi}$$
 
 Looks good! How about:
 
-$$i\hbar\dfrac{\partial}{\partial t}|\psi\right\rangle = \hat{H}|\psi\right\rangle$$
+$$i\hbar\dfrac{\partial}{\partial t}|\psi\rangle = \hat{H}|\psi\rangle$$
 
