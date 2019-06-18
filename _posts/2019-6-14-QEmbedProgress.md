@@ -7,6 +7,9 @@ gh-badge: [star, fork, follow]
 tags: [QEmbed, Quantum Computing]
 ---
 
+{: .box-warning}
+**Warning:** Code listed here is not finalised and is updated as of June 17 2019.
+
 I've recently implemented a complete embedding implementation for QEmbed. More specifically, you can now get a full Chimera embedding provided that you input a problem graph. 
 
 The code is rather messy and I need to work on the syntax and mechanics of it all. However, what is doing is simple and compartmentalised. Take a look:
