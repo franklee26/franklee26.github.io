@@ -14,7 +14,7 @@ I've recently implemented a complete embedding implementation for QEmbed. More s
 
 The code is rather messy and I need to work on the syntax and mechanics of it all. However, what is doing is simple and compartmentalised. Take a look:
 
-```python
+{% highlight python linenos %}
 # import QEmbed
 import QEmbed.Embed as qe 
 
@@ -35,7 +35,7 @@ e.plotBipartite(left = newL, right = newR)
 
 # plot the Chimera graph
 e.plotChimeraFromBipartite(left= newL, right = newR, showMappings = False, L = LL, M = MM, N = NN, isBipartite = False)
-```
+{% endhighlight %}
 
 Here's what the problem graph looks like:
 
