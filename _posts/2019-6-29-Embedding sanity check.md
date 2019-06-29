@@ -35,13 +35,13 @@ e.plotGraph()
 # get left, right bipartite set as well as the OCT set
 L,R,OCT = e.greedyBipartiteSets(getOCT = True, ensurance = True)
 
-# get the virtual hardware embedding as well as the Chimera topology dimensions 
+# get the virtual hardware embedding
 newL, newR = e.OCTEmbed(left = L, right = R, oct = OCT, getChimeraDimensions = False)
 
 # plot the virtual hardware
 e.plotBipartite(left = newL, right = newR)
 
-# plot the Chimera graph
+# plot a 2x2x4 Chimera graph
 e.plotChimeraFromBipartite(left= newL, right = newR, showMappings = False, L = 2, M = 2, N = 4, isBipartite = False)
 {% endhighlight %}
 
