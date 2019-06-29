@@ -57,8 +57,11 @@ and finally the embedded 2x2x4 Chimera graph:
 
 ![chimera](https://i.imgur.com/QYrzGrA.png)
 
-Notice that there is now a new argument for `greedyBipartiteSets` called `ensurance`. When this field is flagged true, it simply checks that the computed left and right sets in fact form a bipartite graph. I'm not sure why (or if this is to be expected), but sometimes `greedyBipartiteSets` does not find bipartite partitions, which is why I added such an option. 
+Notice that there is now a new argument for `greedyBipartiteSets()` called `ensurance`. When this field is flagged true, it simply checks that the computed left and right sets in fact form a bipartite graph. I'm not sure why (or if this is to be expected), but sometimes `greedyBipartiteSets()` does not find bipartite partitions, which is why I added such an option. 
 
 If `ensurance` is set to be true, then the left and right sets will be recomputed at most 101 times until a correct partition is found. This will slow down the process so this will need to be addressed later.
 
-Also, notice that I specified chimera dimensions to be 2x2x4 instead of using `getChimeraDimensions = True` in the `octEmbed()` method. This is because the way I computed the dimentions defaulted to be `3x3x3`, which works but is not what the paper used.
+{: .box-error}
+**Issue:** The `ensurance` argument can slow down computation by quite a bit and does not necessarily guarantee the correct answer. This method may be deprecated later.
+
+Also, notice that I specified chimera dimensions to be 2x2x4 instead of using `getChimeraDimensions = True` in the `octEmbed()` method. This is because the way I computed the dimentions defaulted to be 3x3x3, which works but is not what the paper used.
