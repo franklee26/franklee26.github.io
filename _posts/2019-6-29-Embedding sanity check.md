@@ -16,7 +16,7 @@ A lot of the work done here is based on Goodrich's et al. paper *Optimizing Adia
 
 This screenshot was taken directly from their paper. There does appear to be a mistake; there should be an edge connecting nodes 4 and 8. 
 
-A good sanity to check if QEmbed is working properly is too simply use their example. Previous versions had trouble with this and it finally looks like a lot of the bugs are taken care of, but of course not all of them.
+A good sanity to check if QEmbed is working properly is to simply use their example. Previous versions had trouble with this and it finally looks like a lot of the bugs are taken care of, but of course not all of them.
 
 Take a look at the QEmbed implementation: 
 
