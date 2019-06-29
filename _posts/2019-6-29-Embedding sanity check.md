@@ -14,41 +14,51 @@ A lot of the work done here is based on Goodrich's et al. paper *Optimizing Adia
 
 ![paper](https://i.imgur.com/NZbX3Ne.png)
 
-I've recently implemented a complete embedding implementation for QEmbed. More specifically, you can now get a full Chimera embedding provided that you input a problem graph. 
+This screenshot was taken directly from their paper. There does appear to be a mistake; there should be an edge connecting nodes 4 and 8. 
 
-The code is rather messy and I need to work on the syntax and mechanics of it all. However, what is doing is simple and compartmentalised. Take a look:
+A good sanity to check if QEmbed is working properly is too simply use their example. Previous versions had trouble with this and it finally looks like a lot of the bugs are taken care of, but of course not all of them.
+
+Take a look at the QEmbed implementation: 
 
 {% highlight python linenos %}
+# QEmbed v1.8
 # import QEmbed
 import QEmbed.Embed as qe 
 
 # input problem graph
-e = qe.Embedding(graph = [(1,2),(1,5),(1,3),(2,4),(2,5),(3,5),(3,4)])
+g = [(1,2),(1,3),(1,4),(1,5),(1,6),(1,7),(1,8),(2,3),(2,4),(2,7),(3,4),(3,5),(3,6),(3,7),(3,8),(4,7),(5,8),(5,7),(6,7),(6,8),(4,8)]
+e = Embedding(graph = g)
 
 # plot problem graph
 e.plotGraph()
 
 # get left, right bipartite set as well as the OCT set
-L,R,OCT = e.greedyBipartiteSets(getOCT = True)
+L,R,OCT = e.greedyBipartiteSets(getOCT = True, ensurance = True)
 
 # get the virtual hardware embedding as well as the Chimera topology dimensions 
-newL, newR, LL, MM, NN = e.OCTEmbed(left = L, right = R, oct = OCT, getChimeraDimensions = True)
+newL, newR = e.OCTEmbed(left = L, right = R, oct = OCT, getChimeraDimensions = False)
 
 # plot the virtual hardware
 e.plotBipartite(left = newL, right = newR)
 
 # plot the Chimera graph
-e.plotChimeraFromBipartite(left= newL, right = newR, showMappings = False, L = LL, M = MM, N = NN, isBipartite = False)
+e.plotChimeraFromBipartite(left= newL, right = newR, showMappings = False, L = 2, M = 2, N = 4, isBipartite = False)
 {% endhighlight %}
 
 Here's what the problem graph looks like:
 
-![Problem graph example](https://i.imgur.com/qNym2Wn.png)
+![problem](https://i.imgur.com/yTUMj7j.png)
 
 and the virtual hardware:
 
-![Virtual hardware](https://i.imgur.com/QOCvJ87.png)
+![virtual hardware](https://i.imgur.com/lM2gSIz.png)
 
-and finally the embedded Chimera graph:
+and finally the embedded 2x2x4 Chimera graph:
 
-![Chimera graph](https://i.imgur.com/eS82YGp.png)
+![chimera](https://i.imgur.com/QYrzGrA.png)
+
+Notice that there is now a new argument for `greedyBipartiteSets` called `ensurance`. When this field is flagged true, it simply checks that the computed left and right sets in fact form a bipartite graph. I'm not sure why (or if this is to be expected), but sometimes `greedyBipartiteSets` does not find bipartite partitions, which is why I added such an option. 
+
+If `ensurance` is set to be true, then the left and right sets will be recomputed at most 101 times until a correct partition is found. This will slow down the process so this will need to be addressed later.
+
+Also, notice that I specified chimera dimensions to be 2x2x4 instead of using `getChimeraDimensions = True` in the `octEmbed()` method. This is because the way I computed the dimentions defaulted to be `3x3x3`, which works but is not what the paper used.
