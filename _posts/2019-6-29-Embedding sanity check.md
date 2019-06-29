@@ -57,6 +57,8 @@ and finally the embedded 2x2x4 Chimera graph:
 
 ![chimera](https://i.imgur.com/QYrzGrA.png)
 
+We get the same Chimera mappings! Looks like the embedding process is working a lot better.
+
 Notice that there is now a new argument for `greedyBipartiteSets()` called `ensurance`. When this field is flagged true, it simply checks that the computed left and right sets in fact form a bipartite graph. I'm not sure why (or if this is to be expected), but sometimes `greedyBipartiteSets()` does not find bipartite partitions, which is why I added such an option. 
 
 If `ensurance` is set to be true, then the left and right sets will be recomputed at most 101 times until a correct partition is found. This will slow down the process so this will need to be addressed later.
