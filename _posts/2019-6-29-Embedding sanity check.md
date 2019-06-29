@@ -66,4 +66,4 @@ If `ensurance` is set to be true, then the left and right sets will be recompute
 {: .box-error}
 **Issue:** The `ensurance` argument can slow down computation by quite a bit and does not necessarily guarantee the correct answer. This method may be deprecated later.
 
-Also, notice that I specified chimera dimensions to be 2x2x4 instead of using `getChimeraDimensions = True` in the `octEmbed()` method. This is because the way I computed the dimentions defaulted to be 3x3x3, which works but is not what the paper used.
+Also, notice that I specified chimera dimensions to be 2x2x4 instead of using `getChimeraDimensions = True` in the `octEmbed()` method. This is because the way QEmbed computed the dimentions came out to be 3x3x3, which works but is not what the paper used.
