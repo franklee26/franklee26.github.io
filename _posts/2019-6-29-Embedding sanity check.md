@@ -45,7 +45,7 @@ e.plotBipartite(left = newL, right = newR)
 e.plotChimeraFromBipartite(left= newL, right = newR, showMappings = False, L = 2, M = 2, N = 4, isBipartite = False)
 {% endhighlight %}
 
-Here's what the problem graph looks like:
+Here's what the problem graph looks like (it should be the same as the problem graph provided in the paper, but with an extra edge added between 4 and 8):
 
 ![problem](https://i.imgur.com/yTUMj7j.png)
 
