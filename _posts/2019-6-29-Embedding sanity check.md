@@ -7,9 +7,6 @@ gh-badge: [star, fork, follow]
 tags: [QEmbed, Quantum Computing]
 ---
 
-{: .box-warning}
-**Warning:** Code listed here is not finalised and is updated as of June 29 2019.
-
 A lot of the work done here is based on Goodrich's et al. paper *Optimizing Adiabatic Quantum Program Compilation using a Graph-Theoretic Framework*. In particular, they provide the following problem graph embedding process as an example:
 
 ![paper](https://i.imgur.com/NZbX3Ne.png)
@@ -19,6 +16,9 @@ This screenshot was taken directly from their paper. There does appear to be a m
 A good sanity to check if QEmbed is working properly is to simply use their example. Previous versions had trouble with this and it finally looks like a lot of the bugs are taken care of, but of course not all of them.
 
 Take a look at the QEmbed implementation: 
+
+{: .box-warning}
+**Warning:** Code listed here is not finalised and is updated as of June 29 2019.
 
 {% highlight python linenos %}
 # QEmbed v1.9
