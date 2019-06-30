@@ -21,7 +21,7 @@ A good sanity to check if QEmbed is working properly is to simply use their exam
 Take a look at the QEmbed implementation: 
 
 {% highlight python linenos %}
-# QEmbed v1.8
+# QEmbed v1.9
 # import QEmbed
 import QEmbed.Embed as qe 
 
@@ -51,11 +51,11 @@ Here's what the problem graph looks like (it should be the same as the problem g
 
 and the virtual hardware:
 
-![virtual hardware](https://i.imgur.com/lM2gSIz.png)
+![virtual hardware](https://i.imgur.com/NUWuPl3.png)
 
 and finally the embedded 2x2x4 Chimera graph:
 
-![chimera](https://i.imgur.com/QYrzGrA.png)
+![chimera](https://i.imgur.com/71jwpbt.png)
 
 We get the same Chimera mappings! Looks like the embedding process is working a lot better.
 
