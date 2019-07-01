@@ -27,7 +27,7 @@ import QEmbed.Embed as qe
 
 # copying problem graph from paper
 g = [(1,2),(1,3),(1,4),(1,5),(1,6),(1,7),(1,8),(2,3),(2,4),(2,7),(3,4),(3,5),(3,6),(3,7),(3,8),(4,7),(5,8),(5,7),(6,7),(6,8),(4,8)]
-e = Embedding(graph = g)
+e = qe.Embedding(graph = g)
 
 # plot problem graph
 e.plotGraph()
