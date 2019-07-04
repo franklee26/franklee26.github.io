@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Bike Squares Policy
-subtitle: Arbitrary legal garbage
+subtitle: Arbitrary legal stuff
 gh-repo: franklee26/QEmbed
+tags: [Bike Squares, misc]
 ---
 
 # This is Bike Squares Policy Page
