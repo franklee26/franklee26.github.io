@@ -25,6 +25,7 @@ description: Frank's Homepage
 navbar-links:
   About Me: "aboutme"
   Résumé: "resume"
+  Samples: "sample"
   Tags: http://frankleepage.com/tags/
   Extras:
     - QEmbed Doc: "http://frankleepage.com/QEmbedDoc/"
@@ -97,7 +98,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "www.frankleepage.com"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "www.frankleepage.com" # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
@@ -132,14 +133,14 @@ url-pretty: "www.frankleepage.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # Staticman support
 staticman:
-  repository : # GitHub username/repository eg. "daattali/beautiful-jekyll"
-  branch     : # eg. "master" If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
-  endpoint   : # URL of your own deployment (with trailing slash) (will fallback to a public GitLab instance)
+  repository: # GitHub username/repository eg. "daattali/beautiful-jekyll"
+  branch: # eg. "master" If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
+  endpoint: # URL of your own deployment (with trailing slash) (will fallback to a public GitLab instance)
   reCaptcha:
     # reCaptcha for Staticman (OPTIONAL)
     # If you use reCaptcha, you must also set these parameters in staticman.yml
-    siteKey  : # Use your own site key, you need to apply for one on Google
-    secret   : # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
+    siteKey: # Use your own site key, you need to apply for one on Google
+    secret: # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
 
 # --- Misc --- #
 
@@ -168,16 +169,14 @@ kramdown:
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-      comments: true  # add comments to all blog posts
+      comments: true # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
-  -
-    scope:
+  - scope:
       path: "" # all files
     values:
       layout: "page"
@@ -199,8 +198,8 @@ exclude:
 
 # prose.io config
 prose:
-  rooturl: '_posts'
-  media: 'img'
+  rooturl: "_posts"
+  media: "img"
   ignore:
     - 404.html
     - LICENSE
@@ -252,6 +251,5 @@ prose:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
