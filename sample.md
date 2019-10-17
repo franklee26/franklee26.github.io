@@ -22,3 +22,11 @@ Below is a sample of my past papers, research and projects.
 
   <iframe src="https://drive.google.com/file/d/1hovObe_ObnO8cU298JFWyqPp7Hy5dC9w/preview" width="850" height="600"></iframe>
 </details>
+
+<details>
+  <summary>
+    Presentation: Optimising embedding problem
+  </summary>
+
+  <iframe src="https://drive.google.com/file/d/1r86lmtmdrn1e1JR2JW5nP6NlwlRTcaF1/preview" width="850" height="600"></iframe>
+</details>
