@@ -12,5 +12,5 @@ Below is a sample of my past papers, research and projects.
     Paper: Construction of High Frequency Sound Recognition Device
   </summary>
 
-  <iframe src="https://drive.google.com/file/d/107qDIaPzQQWidjQDopgU6uduHj7IUWi0/preview" width="660" height="490"></iframe>
+  <iframe src="https://drive.google.com/file/d/107qDIaPzQQWidjQDopgU6uduHj7IUWi0/preview" width="850" height="600"></iframe>
 </details>
