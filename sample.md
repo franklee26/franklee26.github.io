@@ -10,7 +10,7 @@ This is a sample page.
 <details>
   <summary>Paper: Construction of High Frequency Sound Recognition Device</summary>
 
-  <iframe id="example" src="https://pdfhost.io/v/ZdHnBxSXi_apssamppdf.pdf"></iframe>
+  <iframe id="example" src="https://drive.google.com/file/d/107qDIaPzQQWidjQDopgU6uduHj7IUWi0/view?usp=sharing&embedded=true"></iframe>
 
   ## Heading
   1. A numbered
