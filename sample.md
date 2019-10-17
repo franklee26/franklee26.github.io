@@ -20,5 +20,5 @@ Below is a sample of my past papers, research and projects.
     Presentation: Notes On Targeting classical code into a Quantum Annealer
   </summary>
 
-  <iframe src="https://drive.google.com/file/d/1hovObe_ObnO8cU298JFWyqPp7Hy5dC9w/preview" width="640" height="480"></iframe>
+  <iframe src="https://drive.google.com/file/d/1hovObe_ObnO8cU298JFWyqPp7Hy5dC9w/preview" width="850" height="600"></iframe>
 </details>
