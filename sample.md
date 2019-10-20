@@ -2,7 +2,7 @@
 layout: page
 title: Sample
 subtitle: Updated as of October 2019
-bigimg: /img/Breadboard.jpg
+bigimg: /img/flower.jpg
 ---
 
 Below is a sample of my past papers, research and projects.
