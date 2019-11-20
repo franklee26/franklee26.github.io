@@ -29,7 +29,7 @@ navbar-links:
   Tags: http://frankleepage.com/tags/
   Extras:
     - QEmbed Doc: "http://frankleepage.com/QEmbedDoc/"
-    - YieldSimRust Doc: "http://franklee26.github.io/YieldSimRust/"
+    - YieldSimRust Doc: "http://frankleepage.com/YieldSimRust/YieldSimRust/index.html"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
