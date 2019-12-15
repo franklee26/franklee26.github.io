@@ -7,13 +7,14 @@ bigimg: /img/myback.jpg
 
 My name is Frank Lee. I am currently:
 
-- a software engineer
-- a Physics and Computer Science undergraduate at UC Santa Barbara
-- researching embedding problems in adiabatic annealers for Quantum Computing under Professor Yufei Ding
+- a Physics and Computer Science undergraduate    at UC Santa Barbara
+  researching embedding problems in adiabatic annealers for Quantum Computing under Professor Yufei Ding
+- submitting graduate school applications
 
 I *was* also:
 
-- an Optical Engineer intern @ Continental working with LiDAR technologies 
+- a software engineer @ Procore
+- an optical engineer intern @ Continental working with LiDAR technologies 
 - an Apple employee
 - a C++ enthusiast (keyword *was*)
 
@@ -21,7 +22,7 @@ I *was* also:
 
 I completed high school in Australia and I am a somewhat intermediate Mandarin speaker. A couple of other things I love working on and learning about:
 
-- General Python & C++ development
+- Rust, Python & C++ development
 - Deep learning for handwriting recognition, image classification and posture detection
 - ML optimisation problems
 - High Energy Physics
