@@ -5,7 +5,7 @@
 
 # If you are building a simple GitHub user page (https://username.github.io) then use these settings:
 url: "https://franklee26.github.io/"
-baseurl: ""
+baseurl: "/franklee26"
 
 # If you are building a GitHub project page then use these settings:
 #url: "http://username.github.io/projectname"
@@ -76,7 +76,6 @@ social-network-links:
   email: "franklee@ucsb.edu"
   facebook: "frank.lee1318"
   github: franklee26
-  twitter: EdgyManatee
   linkedin: franklee26
 #  reddit: yourname
 #  linkedin: daattali
