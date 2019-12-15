@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Sample
+title: Samples
 subtitle: Updated as of October 2019
 bigimg: /img/flower.jpg
 ---
